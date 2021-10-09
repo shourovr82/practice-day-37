@@ -1,0 +1,166 @@
+h1{
+  font-family: 'Gluten', cursive;
+}
+body,h2,h3,h4,h5,h6{
+  font-family: 'PT Sans Caption', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+
+/* header style starts */
+.rexrox-header .navbar-brand {
+  font-weight: 700;
+}
+.rexrox-header span {
+	background: #90D3E8;
+	color: #fff;
+	height: 33px;
+	width: 60px;
+	text-align: center;
+	border-radius: 20px;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	font-size: 16px;
+}
+
+.rexrox-menu .nav-link {
+	padding-left: 40px !important;
+	padding-right: 20px !important;
+}
+
+
+
+
+
+/* header style ends */
+
+/* SLIDER SECTION */
+
+.slider-section{
+  background: url(img/pubg-warrior-4k-9p-3840x2160-1-1536x864.jpg) no-repeat center center;
+  padding: 200px 0;
+	position: relative;
+	z-index: 1;
+	
+}
+.slider-section::after{
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.274);
+	z-index: -1;
+}
+
+.slider-caption h4 {
+	margin-bottom: 5px;
+	color: whitesmoke;
+	font-weight: 700;
+	font-size: 2rem;
+}
+.slider-caption h1 {
+	margin-bottom: 10px;
+	font-size: 60px !important;
+	color: #FF4300;
+}
+
+
+/* SLIDER SECTION ENDS */
+
+/* price section starts */
+
+
+.bdt-btnn {
+	padding-bottom: 4.1rem;
+	margin-left: 45px;
+	top: 2rem;
+	position: relative;
+}
+.bdt-btnnn {
+	padding-bottom: 3.7rem;
+	position: relative;
+	top: 2rem;
+	margin-left: 45px;
+}
+.bdt-btnnnn {
+	padding-bottom: 2rem;
+	position: relative;
+	top: 1rem;
+	margin-left: 45px;
+}
+
+
+/* price section ends */
+
+/* about section starts */
+
+.about-section{
+	background: #ebf2f8;
+}
+.about-text-left{
+	margin-top: 100px;
+}
+.about-text-left .lead{
+	font-size: 20px;
+	line-height: 2.8rem;
+
+}
+
+/* about section ends */
+
+/* feature section css */
+
+.feature-item {
+	height: 300px;
+	box-shadow: 20px 5px 26px 5px rgba(63, 117, 149, 0.31);
+}
+.left-img-sec {
+	width: 65%;
+	overflow: hidden;
+	border-radius: 5px 0 0 5px;
+}
+.left-img-sec img {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	position: relative;
+	left: -59px;
+}
+
+.right-text-sec{
+	width: 60%;
+	padding: 20px;
+}
+
+/* feature section ends */
+
+/* portfolio hover css starts */
+.portfolio-item{}
+.portfolio-item a{
+	position: relative;
+	display: block;
+}
+
+.portfolio-item a::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(6, 12, 36, 0.342);
+	opacity: 0;
+	visibility: hidden;
+	transition: .4s;
+}
+
+.portfolio-item:hover a::after{
+	opacity: 1;
+	visibility: visible;
+}
+
+/* portfolio hover css ends */
